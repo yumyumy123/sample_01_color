@@ -1,0 +1,358 @@
+/* COMMON */
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/variable/pretendardvariable.css");
+
+
+body{
+  font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: -0.01em;
+  word-spacing: -0.1em;
+  line-height: 1.6;
+  color: #191919;
+  /* background-color: #000; */
+}
+
+img{
+  display: block;
+}
+
+a{
+  font-weight: 500;
+  text-decoration: none;
+  color: #191919;
+}
+
+h3{
+  font-size: 64px;
+  line-height: 1.2;
+}
+
+h4{
+  font-size: 52px;
+  line-height: 1.2;
+}
+
+h5{
+  font-size: 24px;
+}
+
+.bold{
+  font-weight: 500;
+}
+.ex_bold{
+  font-weight: 700;
+}
+
+
+
+/* HEADER */
+header{
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  background: blue;
+}
+header .head_wrap{
+  width: 1000px;
+  height: 80px;
+  margin: 0 auto;
+  background-color: red;
+  position: relative;
+}
+
+header .logo img{
+  height: 34px;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+}
+
+header .material-symbols-outlined{
+  font-size: 34px;
+  line-height: 80px;
+  right: 0;
+  position: absolute;
+  /* background: violet; */
+}
+
+/* VISUAL */
+.visual{
+  width: 100%;
+  background-color: violet;
+}
+.visual_wrap{
+  width: 1100px;
+  padding: 210px 0;
+  margin: 0 auto;
+  background-color: orange;
+  overflow: hidden;
+  position: relative;
+}
+.visual_wrap .title_wrap{
+  width: 500px;
+  margin-left: 50px;
+  background-color: #333;
+}
+.visual_wrap .title_wrap .name{
+ margin-bottom: 16px;
+ display: flex;
+ flex-wrap: wrap;
+ align-items: flex-end;
+ background-color: blue;
+}
+.visual_wrap .title_wrap .name h3{
+  font-weight: 700;
+  line-height: 1;
+  padding-right: 4px;
+  background: red;
+}
+.visual_wrap .title_wrap .name .dot{
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: violet;
+  
+  background-color: #72D7AC;
+}
+.visual_wrap .title_wrap .title{
+  background-color: yellow;
+  margin-bottom: 30px;
+}
+.visual_wrap .title_wrap>a{
+  font-size: 16px;  
+  color: #72D7AC;
+  padding: 5px;
+  border-bottom: 1px solid #72D7AC;
+  background-color: aqua;
+}
+.visual_wrap>img{
+  width: 385px;
+  right: 0px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  position: absolute;
+  background-color: yellow;
+}
+
+/* CONTENTS */
+.cont_wrap{
+  width: 100%;
+  position: relative;
+}
+.phone{
+  width: 1000px;
+  height: 525px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  position: absolute;
+  /* background-color: blue; */
+}
+.cont_wrap .phone>img{
+  width: 260px;
+  right: 0;
+  position: absolute;
+  background-color: yellow;
+}
+.cont1{
+  width: 100%;
+  background-color: #EEF0F6;
+}
+.cont1_wrap{
+  width: 1000px;
+  margin: 0 auto;
+  padding: 210px 0; 
+  background-color: violet;
+}
+.cont1_wrap .cont_title{
+  width: 500px;
+  margin-bottom: 60px;
+  background-color: green;
+}
+.cont1 .cont1_wrap>h5{
+  width: 500px;
+  background-color: orange;
+}
+.cont2{
+  width: 100%;
+  background-color: #F5F7FC;
+}
+.cont2_wrap{
+  width: 1000px;
+  margin: 0 auto;
+  padding-top: 210px;
+  background-color: violet;
+}
+.cont2_wrap .cont_title{
+  width: 500px;
+  margin-bottom: 60px;
+  background-color: green;
+}
+.cont2 .cont2_wrap>h5{
+  width: 500px;
+  background-color: orange;
+}
+
+/* ARTICLE */
+.article{
+  width: 100%;
+}
+.article .article_wrap{
+  padding: 160px 0;
+  overflow: hidden;
+  margin: 0 auto;
+  position: relative;
+  background-color: #F5F7FC;
+}
+.article_wrap>ul{
+  width: 1500px;
+  display: flex;
+  justify-content: center;
+  background-color: yellow;
+}
+.article_wrap>ul>li{
+  padding: 30px 20px 30px;
+  margin-right: 10px;
+  background-color: #fff;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, .35);
+}
+.article_title{
+  width: 420px;
+  position: relative;
+  margin-bottom: 50px;
+  background-color: green;
+}
+.article_title>h5{
+  line-height: 1.3;
+  background-color: red;
+}
+.article_title .material-symbols-outlined{
+  color: #72D7AC;
+  right: 0;
+  top: 0;
+  position: absolute;
+  background-color: blue;
+}
+.article_bottom{
+  position: relative;
+  display: flex;
+  background-color: violet;
+}
+.article_bottom .btn{
+  display: flex;
+  background-color: #f1f1f1;
+}
+.article_bottom .btn>span{
+  font-size: 12px;
+  margin-right: 4px;
+  padding: 4px 16px;
+  border-radius: 20px;
+  border: 1px solid #191919;
+}
+.article_bottom .total{
+  font-size: 16px;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  background-color: gold;
+}
+.article_bottom .total .no{
+  font-weight: 700;
+  color: #72D7AC;
+}
+
+/* CURATION */
+.curation{
+  width: 100%;
+  background-color: #333;
+}
+.curation .curation_wrap{
+  width: 1000px;
+  margin: 0 auto;
+  padding-top: 210px;
+  display: flex;
+  flex-direction: column;
+  background-color: blue;
+}
+.curation_wrap .curation_title{
+  text-align: center;
+  margin-bottom: 60px;
+  background-color: green;
+}
+.curation_wrap>h5{
+  text-align: center;
+  margin-bottom: 140px;
+  background-color: orange;
+}
+.curation_wrap>img{
+  width: 450px;
+  margin: auto;
+}
+
+/* ENDING */
+.ending{
+  width: 100%;
+  height: 930px;
+  background-color: #72D7AC;
+  position: relative;
+}
+.ending::before{
+  content: "";
+  opacity: 0.1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  background-size: cover;
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+  background-image: url(./img/end.jfif);
+}
+.ending_wrap{
+  width: 1000px;
+  margin: auto;
+  height: 100%;
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ending_wrap .ending_title{
+  text-align: center;
+  margin: 300px 0 60px 0;
+  background-color: yellow;
+}
+.ending_title .ex_bold{
+  font-size: 42px;
+}
+.ending_title .bold{
+  font-size: 32px;
+}
+.google{
+  padding: 16px 32px;
+  border-radius: 100px;
+  border: 1px solid #fff;
+  display: flex;
+  background-color: forestgreen;
+}
+.google>img{
+  height: 28px;
+  margin-right: 10px;
+  background-color: orchid;
+}
+.google>h5{
+  color: #fff;
+  background-color: orange;
+}
+.copy{
+  bottom: 30px;
+  position: absolute;
+  color: #fff;
+  background-color: magenta;
+}
